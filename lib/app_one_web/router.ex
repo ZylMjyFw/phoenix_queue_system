@@ -17,7 +17,7 @@ defmodule AppOneWeb.Router do
   scope "/", AppOneWeb do
    pipe_through :browser
 
-    get "/", PageController, :home
+    live "/", PageLive, :index
   end
 
 scope "/api", AppOneWeb do

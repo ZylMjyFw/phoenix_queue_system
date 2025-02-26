@@ -1,0 +1,6 @@
+<%= if @status != "ready" do %>
+  <button phx-click="mark_ready">Mark as Ready</button>
+<% else %>
+  <p>You are ready!</p>
+<% end %>
+

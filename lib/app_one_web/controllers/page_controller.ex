@@ -2,6 +2,6 @@ defmodule AppOneWeb.PageController do
   use AppOneWeb, :controller
 
   def home(conn, _params) do
-    text(conn, "Hello, World!")
+    text(conn, "index.html")
   end
 end
