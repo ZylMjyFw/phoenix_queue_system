@@ -1,0 +1,21 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "esbuild js/app.js --bundle --minify --outfile=../priv/static/assets/app.js",
+    "build": "esbuild js/app.js --bundle --minify --outfile=../priv/static/assets/app.js",
+    "watch": "esbuild js/app.js --bundle --watch --outfile=../priv/static/assets/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "phoenix": "^1.7.20"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
